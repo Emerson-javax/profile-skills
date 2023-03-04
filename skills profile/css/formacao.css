@@ -72,11 +72,48 @@
   position: relative;
 }
 
+.faculdade-cursos {
+  margin-top: 50px;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  position: relative;
+  
+}
+
+.faculdade-cursos1 {
+  margin-top: 35px;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  position: relative;
+}
+
 .faculdade-curso::before {
   content: "";
   display: block;
   width: 4px;
   height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  left: -24px;
+}
+
+.faculdade-cursos1::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  top: -50px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  position: absolute;
+  left: -24px;
+}
+
+.faculdade-cursos::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  top: -50px;
   background: linear-gradient(#b6f829, #67dd0a);
   position: absolute;
   left: -24px;

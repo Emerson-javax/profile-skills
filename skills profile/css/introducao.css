@@ -27,6 +27,15 @@
   z-index: -1;
 }
 
+.header-menu>li:hover{
+  background-color: rgb(136, 0, 255);
+  border-radius: 5px;
+}
+
+.header-menu>li>a:hover{
+  color: white;
+}
+
 .introducao p {
   font-size: 1.5rem;
   color: #525252;
@@ -59,5 +68,20 @@
   }
   .introducao img {
     display: none;
+  }
+}
+
+@media (max-height: 1080px) {
+  .introducao {
+    padding-bottom: 175px;
+  }
+  section.experiencia {
+    padding-bottom: 130px;
+  }
+  #tecnologias{
+    padding-bottom: 100px;
+  }
+  .formacao-container::after {
+    top: -50px;
   }
 }
